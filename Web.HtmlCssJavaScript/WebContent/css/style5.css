@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.para {
+	color: red;
+}
+
+.para1 {
+	color: green;
+}
+
+.styleTitre {
+	color: green;
+}
+img{
+	width: 100px;
+}

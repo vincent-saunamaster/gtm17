@@ -1,0 +1,14 @@
+@CHARSET "utf-8";
+
+div {
+	background-color: aqua;
+	/* largeur / hauteur de la boite de contenu */
+	width: 500px;
+	height:auto;
+	/* épaisseur de la marge intérieure padding */
+	padding: 20px;
+	/* épaisseur de la bordure border + effet + couleur */
+	border: 20px solid green;
+	/* épaisseur de la marge extérieure margin -top -right -bottom -left */
+	margin: 10px 20px 30px 40px;
+}

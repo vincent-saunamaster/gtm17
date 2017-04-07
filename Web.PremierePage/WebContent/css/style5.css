@@ -1,0 +1,10 @@
+@CHARSET "utf-8";
+
+body {
+	background-color: RGB(210,0,255);
+}
+
+.madiv {
+	background-color: #000000;
+	color: white;
+}

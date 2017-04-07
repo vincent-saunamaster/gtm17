@@ -1,0 +1,14 @@
+@CHARSET "utf-8";
+
+
+p {
+	color: gray;
+}
+
+#para {
+	color: fuchsia;
+}
+
+strong {
+	color: orange;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!-- pour récupérer la résolution de l'écran -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+
+<title>Formulaire d'ajout client</title>
+</head>
+<body>
+	<h1>Formulaire d'ajout client</h1>
+	<div id="content">
+		<div class="bloc">
+			<form method="post" action="ServletAjouterClient">
+				<fieldset id="section-1">
+					<legend>Informations personnelles</legend>
+					<label for="nom">saisir votre nom :</label> <input type="text"
+						name="nom" id="nom" /><br /> <label for="prenom">saisir
+						votre prenom :</label> <input type="text" name="prenom" id="prenom" /><br />
+					<label for="couleurYeux">saisir la couleur de vos yeux :</label> <input
+						type="text" name="couleurYeux" id="couleurYeux" /><br /> <label
+						for="couleurYeux">saisir votre age :</label> <input type="text"
+						name="age" id="age" /><br />
+				</fieldset>
+				<input type="submit" value="valider" /><br />
+
+			</form>
+		</div>
+		<div class="bloc Footer">
+			<p>
+				Copyright DEMO lyon 2017 <a href="mailto:contact@exemple.com">me
+					contacter</a> si vous avez des questions
+		</div>
+	</div>
+</body>
+</html>

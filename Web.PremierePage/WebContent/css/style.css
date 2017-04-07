@@ -1,0 +1,27 @@
+@CHARSET "utf-8";
+
+body {
+	/*couleur de fond*/
+	background-color: orange;
+}
+
+p {
+	/* couleur de la police */
+	color: blue;
+	/* type de la police */
+	font-family: fantasy,sans-serif;
+	/* taille de la police */
+	font-size: 20px;
+	/* épaisseur de la police */
+	font-weight: bold;
+	/* alignement du texte */
+	text-align: center;
+	/* transformation du texte */
+	text-transform: uppercase;
+}
+
+a {
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+}

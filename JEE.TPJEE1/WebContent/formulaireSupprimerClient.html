@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!-- pour récupérer la résolution de l'écran -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+
+<title>Formulaire de suppression de client</title>
+</head>
+<body>
+	<h1>Formulaire de suppression de client</h1>
+	<div id="content">
+		<div class="bloc">
+			<form method="post" action="ServletSupprimerClient">
+				<fieldset id="section-1">
+					<legend>Informations personnelles</legend>
+					<label for="id">saisir votre id :</label> <input type="text"
+						name="id" id="id" /><br />
+				</fieldset>
+				<input type="submit" value="valider" /><br />
+
+			</form>
+		</div>
+		<div class="bloc Footer">
+			<p>
+				Copyright DEMO lyon 2017 <a href="mailto:contact@exemple.com">me
+					contacter</a> si vous avez des questions
+		</div>
+	</div>
+</body>
+</html>

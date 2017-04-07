@@ -1,0 +1,13 @@
+@CHARSET "utf-8";
+
+.maclasse {
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#id_toto {
+	color: red;
+	font-weight: bolder;
+	text-decoration: none;
+}
